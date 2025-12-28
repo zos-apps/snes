@@ -21,7 +21,27 @@
         "height": 650
       },
       "resizable": true
-    }
+    },
+    "about": "Super Nintendo emulator for classic 16-bit games.",
+    "help": [
+      "Load ROM to play",
+      "Configure controls",
+      "Use save states"
+    ],
+    "docs": "https://zos-apps.github.io/snes",
+    "site": "https://github.com/zos-apps/snes",
+    "shortcuts": [
+      "Enter Start",
+      "Shift Select",
+      "WASD D-pad",
+      "IJKL Buttons"
+    ],
+    "features": [
+      "ROM support",
+      "Save states",
+      "Controller mapping",
+      "Graphics filters"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +74,13 @@
     "snes",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
