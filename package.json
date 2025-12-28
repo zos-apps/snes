@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/snes",
+  "name": "@zos-apps/snes",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,15 @@
     "icon": "🎮",
     "category": "games",
     "description": "Super Nintendo emulator - relive the classics",
-    "permissions": ["storage.local", "network"],
+    "permissions": [
+      "storage.local",
+      "network"
+    ],
     "window": {
-      "defaultSize": { "width": 800, "height": 650 },
+      "defaultSize": {
+        "width": 800,
+        "height": 650
+      },
       "resizable": true
     }
   },
@@ -30,5 +36,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Super Nintendo emulator - relive the classics",
+  "homepage": "https://zos-apps.github.io/snes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/snes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/snes/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "snes",
+    "macos",
+    "desktop"
+  ]
 }
