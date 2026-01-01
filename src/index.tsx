@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback } from 'react';
 
 interface SNESProps {
   onClose: () => void;
@@ -27,7 +27,7 @@ const CLASSIC_GAMES: Game[] = [
   { id: 'megamanx', name: 'Mega Man X', icon: '🤖', year: '1993', genre: 'Action' },
 ];
 
-const SNES: React.FC<SNESProps> = ({ onClose }) => {
+const SNES: React.FC<SNESProps> = ({ onClose: _onClose }) => {
   const [selectedGame, setSelectedGame] = useState<Game | null>(null);
   const [romLoaded, setRomLoaded] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
